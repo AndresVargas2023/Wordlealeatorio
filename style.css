@@ -1,0 +1,64 @@
+/* Estilos para el botón */
+#guess-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #0074d9;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* Estilos para el título principal */
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(224, 53, 53);
+}
+
+/* Estilos para el párrafo */
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Estilos para el cuadro de texto de la palabra aleatoria */
+#palabra-aleatoria {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #639949;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Establece la imagen de fondo */
+body {
+    background-image: url('https://media.istockphoto.com/id/1150993061/es/vector/mapa-de-sudam%C3%A9rica.jpg?s=1024x1024&w=is&k=20&c=GwcVEzMXObWlGUibKF1YBltwpb9Q7F6gWGktNPi6CFQ=');
+    background-size: 50%; /* Ajusta el tamaño de la imagen al 30% del tamaño original */
+    background-attachment: fixed;
+    font-size: 100%;
+
+}
+div {
+    background-color: rgba(206, 188, 188, 0.8);
+    padding: 20px;
+    width: 40%;
+    align-items: center;
+}
+
+.centered-element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
